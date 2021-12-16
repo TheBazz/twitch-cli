@@ -25,8 +25,16 @@ CMakeFiles/binary.dir/source/main.c.o: ../source/main.c \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/floatn.h \
-  /usr/include/bits/floatn-common.h
+  /usr/include/bits/floatn-common.h \
+  /usr/include/string.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/strings.h
 
+
+/usr/include/strings.h:
+
+/usr/include/string.h:
 
 /usr/include/bits/floatn-common.h:
 
@@ -39,6 +47,8 @@ CMakeFiles/binary.dir/source/main.c.o: ../source/main.c \
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/types/__fpos_t.h:
+
+/usr/include/bits/types/locale_t.h:
 
 /usr/include/bits/time64.h:
 
@@ -61,6 +71,8 @@ CMakeFiles/binary.dir/source/main.c.o: ../source/main.c \
 /usr/lib/gcc/x86_64-pc-linux-gnu/11.1.0/include/stddef.h:
 
 /usr/include/sys/cdefs.h:
+
+/usr/include/bits/types/__locale_t.h:
 
 /usr/include/bits/types.h:
 
