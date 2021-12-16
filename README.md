@@ -29,7 +29,7 @@ First, go to ~/.config/twitch-cli/streamers.txt. In the file you should add the 
 Questions
 ---------
 
-- I followed the installation, but it doesn't work. What should I do ?
+- I followed the installation, but it doesn't work. What should I do?
 
 The error you get in the terminal should come from mpv, so use it to fix mpv. A common error would be to not have configured yt-dlp as it is the current method to watch streams with mpv.
 
