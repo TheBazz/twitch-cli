@@ -29,6 +29,7 @@ Usage
 First, go to ~/.config/twitch-cli/streamers.txt.
 In the file you should add the exact name of one streamer per line.
 To get the exact name, just go to twitch and search the streamer's name, the exact name is the name in the url.
+
 Once you have added streamers, you just need to type twitch-cli in terminal, and a list of the streamers you added will appear, as well as if they are live or not.
 You then enter the number of the streamer you want to watch and the stream should start with mpv.
 
