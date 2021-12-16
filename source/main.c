@@ -26,6 +26,7 @@ struct MemoryStruct {
 };
 
 int main (int argc, char *argv[]) {
+  // get the home directory of the user to get to .config location and open streamers.txt
   struct passwd *pw = getpwuid(getuid());
   char *homePath = pw->pw_dir;
   char *streamerPath = "/.config/twitch-cli/streamers.txt";
@@ -35,7 +36,6 @@ int main (int argc, char *argv[]) {
     exit(EXIT_FAILURE);
   }
 
-  printf("%sYour twitch channels : %s\n", BOLD, RESET);
   int count = 0;
   char **streamers = (char **) malloc(sizeof(char *) * MAX_STREAMERS);
   char *line = NULL;
@@ -91,6 +91,7 @@ int main (int argc, char *argv[]) {
     chunk.size = 0;
   }
   free(chunk.memory);
+  printf("%sYour twitch channels : %s\n", BOLD, RESET);
   for (int i = 0; i != count; i++) {
     if (status[i] == 0) {
       printf(" %d - %s : %slive%s\n", i + 1, streamers[i], GREEN, RESET);
