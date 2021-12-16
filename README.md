@@ -33,7 +33,7 @@ Questions
 
 The error you get in the terminal should come from mpv, so use it to fix mpv. A common error would be to not have configured yt-dlp as it is the current method to watch streams with mpv.
 
-- How can I see and type in twitch-chat?
+- How can I see and type in twitch chat?
 
 This tool does not cover those features, I have heard that mpv has plugin to see twitch chat, but I don't think you can chat in it.
 
