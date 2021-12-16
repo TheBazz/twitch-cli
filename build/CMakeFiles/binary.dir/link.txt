@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/binary.dir/source/main.c.o -o binary 
