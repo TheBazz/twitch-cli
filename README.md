@@ -8,8 +8,10 @@ Installation
 twitch-cli has two dependencies, mpv to start playing the stream and curl to find wether or not a streamer is live.
 
 ```
-git clone https://github.com/TheBazz/twitch-cli
-cd clone/build
+git clone "https://github.com/TheBazz/twitch-cli"
+cd twitch-cli 
+mkdir build
+cd build
 cmake .. && make
 sudo cp binary /usr/bin/twitch-cli
 mkdir ~/.config/twitch-cli -p
