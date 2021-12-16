@@ -1,4 +1,4 @@
-##TWITCH-CLI##
+## TWITCH-CLI ##
 
 Twitch-cli is a command line tool to watch twitch with mpv. It is made to be very simple.
 
