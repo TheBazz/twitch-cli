@@ -13,7 +13,7 @@ cd twitch-cli
 mkdir build
 cd build
 cmake .. && make
-sudo cp binary /usr/bin/twitch-cli
+sudo mv binary /usr/bin/twitch-cli
 mkdir ~/.config/twitch-cli -p
 touch ~/.config/twitch-cli/streamers.txt
 ```
