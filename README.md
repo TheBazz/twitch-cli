@@ -13,8 +13,7 @@ git clone "https://github.com/TheBazz/twitch-cli"
 cd twitch-cli 
 mkdir build
 cd build
-cmake ..
-&& make
+cmake .. && make
 sudo mv binary /usr/bin/twitch-cli
 mkdir ~/.config/twitch-cli -p
 touch ~/.config/twitch-cli/streamers.txt
