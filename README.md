@@ -16,7 +16,7 @@ mkdir ~/.config/twitch-cli -p
 touch ~/.config/twitch-cli/streamers.txt
 ```
 
-I have plans to add twitch-tv to the aur, so very soon you'll be able to get it from there for arch users.
+I have plans to add twitch-tv to the AUR, so very soon you'll be able to get it from there for arch users.
 
 
 Usage
