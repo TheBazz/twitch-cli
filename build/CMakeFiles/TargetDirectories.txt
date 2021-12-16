@@ -1,3 +1,0 @@
-/home/paul/documents/Dev/c/twitch-cli/build/CMakeFiles/binary.dir
-/home/paul/documents/Dev/c/twitch-cli/build/CMakeFiles/edit_cache.dir
-/home/paul/documents/Dev/c/twitch-cli/build/CMakeFiles/rebuild_cache.dir
